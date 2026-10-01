@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Humaine Labs brand.
+     Sampled from the wordmark — confirm exact values against the brand kit.
+     Changing them here restyles the whole app. */
+  --color-brand: #ffce5c;
+  --color-brand-dark: #f0b93a;
+  --color-ink: #17181a;
+  --color-muted: #64748b;
+}
+
+body {
+  background: #f8fafc;
+  color: var(--color-ink);
+}
